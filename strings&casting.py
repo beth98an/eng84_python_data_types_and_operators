@@ -37,4 +37,16 @@ print(Example_text)
 print(Example_text.upper())  # converts to upper case
 print(Example_text.lower())  # converts to lower case
 print(Example_text.capitalize())  # capitalises first letter of string
-print(Example_text.replace("with", ","))  #will replace the word "with" with a , in this case
+print(Example_text.replace("with", ","))  # will replace the word "with" with a , in this case
+
+# Concatenation and casting
+
+first_name = "Harry"
+last_name = "Potter"
+age = 35  # int
+print(first_name + " " + last_name)
+print(first_name + " " + last_name + " " + str(age))
+# str() converts integer to string in this case
+
+# F-String is an amazing Magical formatting f
+print(f"{first_name} {last_name} is {age} years old")
