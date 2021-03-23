@@ -32,3 +32,19 @@
 - `H e l l o   w o r l d  !`
 
 ### Let's have a look at some string methods
+```python
+white_space = "lot's of space at the end                   "
+# strip() helps us delete all white spaces
+print(len(white_space))
+print(len(white_space.strip()))
+
+Example_text = "here's some text with lot's of text"
+print(Example_text.count("text"))
+# Counts the number of times the word is mentioned in the statement
+print(Example_text)
+print(Example_text.upper())  # converts to upper case
+print(Example_text.lower())  # converts to lower case
+print(Example_text.capitalize())  # capitalises first letter of string
+print(Example_text.replace("with", ","))  # will replace the word "with" with a , in this case
+
+```
